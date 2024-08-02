@@ -1,0 +1,119 @@
+body
+{
+	background-color:#242C3D;
+	font-family:Trebuchet MS, sans-serif;
+	font-weight:600;
+}
+
+.header
+{
+	background-color:#F5F5DC;
+	width:100%;
+	height:60px;
+	border-radius:15px;
+	display: flex;
+    align-items: center;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+.container1
+{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	position:sticky;
+	top:0px;
+}
+
+.container
+{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content:center;
+}
+
+.logo
+{
+	font-size:40px;
+	margin-left:15px;
+}
+
+.option
+{
+	font-weight:600;
+	margin:15px;
+}
+
+.left
+{
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+.item
+{
+	min-width:500px;
+	background-color:#F5F5DC;
+	height:500px;
+	border-radius:15px;
+	float:left;
+	margin:70px;
+}
+
+.left2
+{
+	width:1280px;
+}
+
+@media (max-width: 1440px) {
+    .left2 {
+        width:640px;
+    }
+}
+
+#item1
+{
+	background-image:url(albert.jpg);
+	background-size:cover;
+}
+
+#item2
+{
+	background-image:url(tunel.jpg);
+	background-size:cover;
+}
+
+.guzik
+{
+	background-color:rgba(245, 245, 220, 0.5);
+	height:500px;
+	width:60px;
+	float:right;
+	display:flex;
+    align-items:center;
+	font-size:70px;
+	transition:width 0.5s;
+	border-radius:15px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.guzik:hover
+{
+	width:320px;
+}
