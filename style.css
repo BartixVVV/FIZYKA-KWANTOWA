@@ -98,6 +98,12 @@ a:hover
 	background-size:cover;
 }
 
+#item3
+{
+	background-image:url(dwieszczeliny.jpg);
+	background-size:cover;
+}
+
 .guzik
 {
 	background-color:rgba(245, 245, 220, 0.5);
